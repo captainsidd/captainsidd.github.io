@@ -1,0 +1,142 @@
+body {
+  background: #D15151;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+  color: #fff;
+  outline: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+header {
+  position: absolute;
+  display:block;
+}
+header .motto {
+  padding-left: 5%;
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: left;
+  font-size: 22vh;
+  font-size: 25vw;
+  font-size: 25vmin;
+}
+.navbar-custom {
+  background: #2C3E50;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+}
+.navbar-custom .navbar-brand {
+  color: white;
+}
+.navbar-custom .navbar-brand a:hover {
+  color: #D15151;
+}
+.navbar-custom .navbar-nav {
+  letter-spacing: 1px;
+}
+.navbar-custom .navbar-nav li a {
+  color: white;
+  padding: 20px 10px 10px 10px;
+}
+.navbar-custom .navbar-nav li a:hover {
+  color: #D15151;
+}
+.list-inline li {
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+.btn-outline {
+  color: white;
+  font-size: 20px;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+}
+.copyright {
+  color: #D15151;
+  font-size: 5px;
+}
+@media (min-width: 768px) {
+  header .container {
+    padding-top: 85px;
+  }
+  .navbar-custom {
+    padding: 25px 20px;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+}
+@media (max-width: 768px) {
+  .list-inline li {
+    text-align: right;
+    -webkit-transform: none;
+    transform: none;
+  }
+  header .container {
+    padding-top: 15%;
+  }
+  header .motto {
+    font-size: 10vh;
+    font-size: 17.5vw;
+  }
+  .navbar-custom {
+    background: #2C3E50;
+    color: white;
+  }
+}
+@media (max-width: 992px) {
+  .list-inline li {
+    text-align: right;
+    -webkit-transform: none;
+    transform: none;
+  }
+  header .container {
+    padding-top: 15%;
+  }
+  header .motto {
+    font-size: 10vh;
+    font-size: 17.5vw;
+  }
+  .navbar-custom {
+    padding: 2% 2% 2% 2%;
+    background: #2C3E50;
+    color: white;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-collapse.collapse {
+      display: none !important;
+  }
+  .navbar-collapse.collapse.in {
+      display: block !important;
+  }
+  .navbar-header .collapse, .navbar-toggle {
+      display:block !important;
+  }
+  .navbar-header {
+      float:none;
+  }
+}
