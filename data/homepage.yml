@@ -1,0 +1,106 @@
+# homepage
+homepage:
+  head:
+    title: "Sid Nutulapati"
+# showcase
+showcase:
+  enable: true
+  title: "Hi, I'm Sid."
+  subtitle: "I like understanding why we make decisions and building systems to help us make better ones."
+  description: ""
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/cptsidd/"
+
+    - icon: "github"
+      URL: "https://github.com/captainsidd"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/captainsidd"
+
+
+# about
+about:
+  enable: true
+  title: "About me"
+  content: ""
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+  image:
+    x: "img/about/sid.png"
+    _2x: "img/about/sid@2x.png"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Fordham University"
+      year: "2019-2021"
+      degree: "Masters of Science, Applied Statistics and Decision Making"
+
+    - university: "Rochester Institute of Technology"
+      year: "2014-2018"
+      degree: "Bachelors of Science, Computer Science"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: ''
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/cptsidd"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1X-MUQkSCv8hAhuvXZmEb_TV92ZrGisLp/view"
+
+  items:
+    - title: "Software Engineer"
+      company: "Square"
+      duration: "Feb 2011 - Sep 2019"
+
+    - title: "Software Engineer - Audience Product"
+      company: "The New York Times"
+      duration: "Apr 2010 - Jan 2011"
+
+    - title: "Software Engineer - Site Reliability"
+      company: "Amplify"
+      duration: "Jun 2009 - Mar 2010"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  email:
+    title: "Email"
+    email: '<a href="mailto:sid@captainsidd.com">sid@captainsidd.com</a>'
+  address:
+    title: "Address"
+    address: "New York, New York, USA"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
