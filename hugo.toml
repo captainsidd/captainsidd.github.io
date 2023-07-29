@@ -1,4 +1,4 @@
-baseURL = 'http://captainsidd.com/'
+baseURL = 'https://captainsidd.com/'
 languageCode = 'en-us'
 title = 'Sid Nutulapati | A Human Doing'
 theme = "raditian-free-hugo-theme"
