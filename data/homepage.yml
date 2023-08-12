@@ -21,6 +21,11 @@ showcase:
     btnText: "Contact"
     URL: "#contact"
 
+  resume:
+    icon: "icon-profile-fill"
+    btnText: "Resume"
+    URL: "https://drive.google.com/file/d/1X-MUQkSCv8hAhuvXZmEb_TV92ZrGisLp/view"
+
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/cptsidd/"
