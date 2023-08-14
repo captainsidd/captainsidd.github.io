@@ -24,7 +24,7 @@ showcase:
   resume:
     icon: "icon-profile-fill"
     btnText: "Resume"
-    URL: "https://drive.google.com/file/d/1X-MUQkSCv8hAhuvXZmEb_TV92ZrGisLp/view"
+    URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
 
   socialLinks:
     - icon: "linkedin"
@@ -75,7 +75,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "https://drive.google.com/file/d/1X-MUQkSCv8hAhuvXZmEb_TV92ZrGisLp/view"
+    URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
 
   items:
     - title: "Software Engineer"
