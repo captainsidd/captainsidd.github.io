@@ -26,6 +26,11 @@ showcase:
     btnText: "Resume"
     URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
 
+  contact:
+    icon: "icon-quote"
+    btnText: "Book A Meeting"
+    URL: "https://calendly.com/booksid/30min"
+
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/cptsidd/"
