@@ -29,7 +29,7 @@ showcase:
   contact:
     icon: "icon-quote"
     btnText: "Book A Meeting"
-    URL: "https://calendly.com/booksid/30min"
+    URL: "https://calendly.com/booksid/"
 
   socialLinks:
     - icon: "linkedin"
