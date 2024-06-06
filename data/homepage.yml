@@ -21,10 +21,10 @@ showcase:
     btnText: "Contact"
     URL: "#contact"
 
-  resume:
-    icon: "icon-profile-fill"
-    btnText: "Resume"
-    URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
+  # resume:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Resume"
+  #   URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
 
   contact:
     icon: "icon-quote"
@@ -38,8 +38,8 @@ showcase:
     - icon: "github"
       URL: "https://github.com/captainsidd"
 
-    - icon: "twitter"
-      URL: "https://twitter.com/captainsidd"
+    # - icon: "tumblr"
+    #   URL: "https://twitter.com/captainsidd"
 
 
 # about
@@ -83,16 +83,20 @@ experience:
     URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
 
   items:
-    - title: "Software Engineer"
-      company: "Square"
+    - title: "Capital One"
+      link: "https://capitalone.com"
+      duration: "Jan 2024 - Present"
+
+    - title: "Square"
+      link: "https://squareup.com"
       duration: "Jan 2022 - May 2023"
 
-    - title: "Software Engineer - Audience Product"
-      company: "The New York Times"
+    - title: "The New York Times"
+      link: "https://nytimes.com"
       duration: "Nov 2019 - Jan 2022"
 
-    - title: "Software Engineer - Site Reliability"
-      company: "Amplify"
+    - title: "Amplify Education"
+      link: "https://amplify.com"
       duration: "Jun 2018 - Nov 2019"
 
 # contact
@@ -107,7 +111,7 @@ contact:
     message: "Type Your Message Here"
   email:
     title: "Email"
-    email: '<a href="mailto:sid@captainsidd.com">sid@captainsidd.com</a>'
+    email: 'sid [dot] nutulapati [at] gmail.com'
   address:
     title: "Address"
     address: "New York, New York, USA"

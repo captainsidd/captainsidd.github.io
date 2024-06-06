@@ -6,8 +6,8 @@
                 {{ range .Site.Data.homepage.experience.items }}
                 <div class="experience">
                     <div class="experience__date">{{ .duration }}</div>
-                    <div class="experience__title">{{ .title }}</div>
-                    <div class="experience__company">{{ .company }}</div>
+                    <div class="experience__title"><a href=.link>{{ .title }}</a></div>
+                    {{/*  <div class="experience__company">{{  }}</div>  */}}
                 </div>
                 {{ end }}
             </div>
@@ -15,6 +15,7 @@
                 <h2>{{ .Site.Data.homepage.experience.title }}</h2>
                 <p class="lead">
                     <p>
+                        Right now, I'm working at <a href="https://www.capitalone.com">CapitalOne</a>.
                         My last job was at <a href="https://squareup.com">Square</a>, where I worked on software systems
                         that send money across various countries and payment methods.
                         Before that, I was at <a href="https://nytimes.com">The New York Times</a>, building tools for

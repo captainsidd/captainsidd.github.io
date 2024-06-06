@@ -33,7 +33,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.header]]
   name = "Writings"
-  URL = "/blog"
+  URL = "https://www.captainsidd.com/blog"
   weight = 4
 
   [[menu.header]]
@@ -48,7 +48,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Writings"
-  URL = "/blog"
+  URL = "https://www.captainsidd.com/blog"
   weight = 4
 
   [[menu.footer]]
