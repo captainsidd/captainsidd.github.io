@@ -38,8 +38,8 @@ showcase:
     - icon: "github"
       URL: "https://github.com/captainsidd"
 
-    # - icon: "tumblr"
-    #   URL: "https://twitter.com/captainsidd"
+    - icon: "twitter"
+      URL: "https://twitter.com/whatsidthinks"
 
 
 # about
