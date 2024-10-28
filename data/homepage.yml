@@ -38,9 +38,6 @@ showcase:
     - icon: "github"
       URL: "https://github.com/captainsidd"
 
-    # - icon: "tumblr"
-    #   URL: "https://twitter.com/captainsidd"
-
 
 # about
 about:
@@ -77,15 +74,15 @@ experience:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/cptsidd"
-  button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "https://drive.google.com/file/d/1kOJpTB3Ncx8mjzGrvID2uautzbEXDua1/view"
 
   items:
+    - title: "Rockbot"
+      link: "https://rockbot.com"
+      duration: "Oct 2024 - Present"
+
     - title: "Capital One"
       link: "https://capitalone.com"
-      duration: "Jan 2024 - Present"
+      duration: "Jan 2024 - Oct 2024"
 
     - title: "Square"
       link: "https://squareup.com"
