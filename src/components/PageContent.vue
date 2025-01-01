@@ -1,34 +1,43 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-import LinkedIn from './icons/linkedin.svg';
-import GitHub from './icons/github.svg';
-import Blog from './icons/blog.svg';
-import Instagram from './icons/instagram.svg';
-import Harmonic from './icons/harmonicdecisions.svg';
-import Profile from '../assets/profile.jpg';
+import LinkedIn from './icons/linkedin.svg'
+import GitHub from './icons/github.svg'
+import Blog from './icons/blog.svg'
+import Instagram from './icons/instagram.svg'
+import Harmonic from './icons/harmonicdecisions.svg'
+import Profile from '../assets/profile.jpg'
 
-const name = 'Hi, I\'m Sid.';
-const bio = 'I like understanding why we make decisions and building systems to help us make better ones.';
-const hoverText = ref('');
+const name = "Hi, I'm Sid."
+const bio =
+  'I like understanding why we make decisions and building systems to help us make better ones.'
+const hoverText = ref('')
 
 const links = [
   { url: 'https://asidnote.ghost.io', image: Blog, text: 'Read my assorted writings' },
   { url: 'https://linkedin.com/in/cptsidd', image: LinkedIn, text: 'Connect with me on LinkedIn' },
   { url: 'https://harmonicdecisions.com', image: Harmonic, text: 'Let me help you make decisions' },
   { url: 'https://instagram.com/sid.nutul', image: Instagram, text: 'Add me on Instagram I guess' },
-  { url: 'https://github.com/captainsidd', image: GitHub, text: 'Find my software engineering work on GitHub' },
-];
+  {
+    url: 'https://github.com/captainsidd',
+    image: GitHub,
+    text: 'Find my software engineering work on GitHub',
+  },
+]
 
-const updateHoverText = (newText) => {
-  hoverText.value = newText;
+const updateHoverText = (newText: string) => {
+  hoverText.value = newText
 }
 </script>
 
 <template>
   <div class="profile-page">
     <div class="profile-container">
-      <img class="profile-picture" :src="Profile" alt="If you can read this my face isn't showing up" />
+      <img
+        class="profile-picture"
+        :src="Profile"
+        alt="If you can read this my face isn't showing up"
+      />
       <div class="greeting-container">
         <h1 class="greeting">{{ name }}</h1>
       </div>
@@ -55,7 +64,6 @@ const updateHoverText = (newText) => {
     </div>
   </div>
 </template>
-
 
 <style scoped>
 .profile-page {
