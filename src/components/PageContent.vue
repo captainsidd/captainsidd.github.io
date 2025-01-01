@@ -71,7 +71,7 @@ const updateHoverText = (newText: string) => {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 95vh;
+  height: 100vh;
   padding-top: 15vh;
   padding-bottom: 15vh;
   box-sizing: border-box;
